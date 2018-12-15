@@ -1,0 +1,45 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: English Sidebar
+  product: Jekyll Doc Theme
+  version: 6.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Get started
+      url: /en_index.html
+      output: web, pdf
+      type: homepage
+
+    - title: About
+      url: /en_about.html
+      output: web, pdf
+
+  - title: Wiki Languages
+    output: web, pdf
+    folderitems:
+
+    - title: English
+      url: /en_index.html
+      output: web, pdf
+
+    - title: Russian
+      url: /ru_index.html
+      output: web, pdf
