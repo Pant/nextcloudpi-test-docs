@@ -5,7 +5,6 @@ last_updated: July 3, 2016
 tags: [getting_started]
 summary: "Testing pages in English"
 sidebar: en_sidebar
-baseurl: /en/
 permalink: en_index.html
 folder: en
 ---

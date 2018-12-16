@@ -110,7 +110,7 @@ sidebars:
 description: "This is a test Documentation Wiki site for NextCloudPi. It will replace github's wiki and will support multiple languages."
 # the description is used in the feed.xml file
 
-baseurl: /nextcloudpi-test-docs
+#baseurl: /nextcloudpi-test-docs
 # needed for sitemap.xml file only
 # url: http://idratherbewriting.com
 # baseurl: /documentation-theme-jekyll
