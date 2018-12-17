@@ -2,8 +2,7 @@
 
 entries:
 - title: English Sidebar
-  product: Jekyll Doc Theme
-  version: 6.0
+  product: NextcloudPi Wiki
   folders:
 
   - title:
@@ -19,25 +18,51 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Overview
+  - title: Getting Started
     output: web, pdf
     folderitems:
 
-    - title: Get started
-      url: /en_index.html
+    - title: Home and Overview
+      url: /en_Home.html
       output: web, pdf
       type: homepage
 
-    - title: About
-      url: /en_about.html
+    - title: How to access NextCloudPi
+      url: /en_How-to-access-NextCloudPi.html
       output: web, pdf
+
+    - title: How to access from outside of your network
+      url: /en_How-to-access-from-outside-of-your-network.html
+      output: web, pdf
+
+    - title: BerryBoot Instructions for NextCloudPi
+      url: /en_BerryBoot-Instructions-for-NextCloudPi.html
+      output: web, pdf
+
+    - title: How to install NextCloudPi on an external drive using Berryboot
+      url: /en_How-to-install-NextCloudPi-on-an-external-drive-using-Berryboot.html
+      output: web, pdf
+
+    - title: FAQ
+      url: /en_FAQ.html
+      output: web, pdf
+
+    - title: Why is my Pi slow
+      url: /en_Why-is-my-Pi-so-slow.html
+      output: web, pdf
+
+    - title: How & where to get help
+      url: /en_How-and-where-to-get-help.html
+      output: web, pdf
+
+
 
   - title: Wiki Languages
     output: web, pdf
     folderitems:
 
     - title: English
-      url: /en_index.html
+      url: /en_Home.html
       output: web, pdf
 
     - title: Russian
