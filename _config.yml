@@ -3,7 +3,8 @@ output: web
 topnav_title: NextCloudPi Documentation
 site_title: NextCloudPi Documentation
 company_name: NextCloudPi Community
-github_editme_path: pant/nextcloudpi-test-docs/blob/gh-pages/
+license: Lisenced under GPLv3
+github_editme_path: pant/nextcloudpi-test-docs/blob/master/
 disqus_shortname: null
 google_analytics: null
 host: 127.0.0.1

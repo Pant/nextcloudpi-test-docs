@@ -6,7 +6,7 @@ topnav:
     - title: GitHub
       external_url: https://github.com/nextcloud/nextcloudpi
     - title: Official website
-      url: http://nextcloudpi.com
+      external_url: https://nextcloudpi.com
 
 #Topnav dropdowns
 #topnav_dropdowns:

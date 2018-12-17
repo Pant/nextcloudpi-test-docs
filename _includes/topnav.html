@@ -51,8 +51,13 @@
                 {% endfor %}
                 {% endfor %}
                 {% if site.feedback_disable == null or site.feedback_disable == false %}
-			{% include feedback.html %}
-		{% endif %}
+			               {% include feedback.html %}
+		            {% endif %}
+
+                {% if site.github_editme_path %}
+                <li><a target="_blank" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a></li>
+                {% endif %}
+
                 <!--comment out this block if you want to hide search-->
                 <li>
                     <!--start search-->
