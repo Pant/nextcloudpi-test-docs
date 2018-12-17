@@ -55,6 +55,41 @@ entries:
       url: /en_How-and-where-to-get-help.html
       output: web, pdf
 
+  - title: Configuration
+    output: web, pdf
+    folderitems:
+
+    - title: Add a new language to ncp-web
+      url: /en_Add-a-new-language-to-ncp-web.html
+      output: web, pdf
+
+    - title: Configuration Reference
+      url: /en_Configuration-Reference.html
+      output: web, pdf
+
+    - title: How to configure NextCloudPi
+      url: /en_How-to-configure-NextCloudPi.html
+      output: web, pdf
+
+    - title: Two Factor Authentication for Nextcloud
+      url: /en_Two-Factor-Authentication-for-Nextcloud.html
+      output: web, pdf
+
+    - title: How to get certificate with Letsencrypt using DNS to verify domain
+      url: /en_How-to-get-certificate-with-Letsencrypt-using-DNS-to-verify-domain.html
+      output: web, pdf
+
+    - title: How to configure Let's Encrypt with closed ports 80 and 443
+      url: /en_How-to-configure-Lets-Encrypt-with-closed-ports-80-and-443.html
+      output: web, pdf
+
+    - title: Sync Nextcloud, tasks, calendars and contacts on your Android device
+      url: /en_Sync-Nextcloud-tasks-calendars-and-contacts-on-your-Android-device.html
+      output: web, pdf
+
+    - title: How to snapshot with BTRFS
+      url: /en_How-to-snapshot-with-btrfs.html
+      output: web, pdf
 
 
   - title: Wiki Languages

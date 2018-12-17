@@ -1,3 +1,14 @@
+---
+title: Configuration Reference
+keywords: configuration help ncp-config
+tags: [configuration, help, ncp-config]
+#summary: ""
+sidebar: en_sidebar
+permalink: en_Configuration-Reference.html
+folder: en
+---
+
+
 [nc-scan-auto]: https://github.com/nextcloud/nextcloudpi/wiki/Configuration-Reference#nc-scan-auto
 [nc-scan]: https://github.com/nextcloud/nextcloudpi/wiki/Configuration-Reference#nc-scan
 
@@ -5,11 +16,11 @@
 Configure a NFS network file system server. This is a lightweight way to mount your cloud files through LAN in a Linux computer.
 
 ## dnsmasq
-This is a DNS server that you might need in case you cannot access you cloud from inside your house by the external URL, such as _mycloud.freeDNS.org_. This depends on wether your router supports _NAT loopback_. 
+This is a DNS server that you might need in case you cannot access you cloud from inside your house by the external URL, such as _mycloud.freeDNS.org_. This depends on wether your router supports _NAT loopback_.
 
 See [this post](https://ownyourbits.com/2017/03/09/dnsmasq-as-dns-cache-server-for-nextcloudpi-and-raspbian/) for details.
 ## fail2ban
-As soon as your NextClouPi is connected to the internet it might get attacked. Most attacks are probably automated attacks by botnets or scripts trying to break into your System by simply using standard username/password combinations like admin/admin. [fail2ban](https://github.com/fail2ban/fail2ban/wiki/How-fail2ban-works2) scans your webserver logs (which can be found under /var/log/apache2/error.log) for failed login attempts. If there are to many failed attempts (default is 6 failed attempts within 10 minutes) fail2ban will ban the attacker's IP address for a certain amount of time (default is 10 minutes). If you activate mail alerts you will receive emails when fail2ban locks out certain IP addresses. 
+As soon as your NextClouPi is connected to the internet it might get attacked. Most attacks are probably automated attacks by botnets or scripts trying to break into your System by simply using standard username/password combinations like admin/admin. [fail2ban](https://github.com/fail2ban/fail2ban/wiki/How-fail2ban-works2) scans your webserver logs (which can be found under /var/log/apache2/error.log) for failed login attempts. If there are to many failed attempts (default is 6 failed attempts within 10 minutes) fail2ban will ban the attacker's IP address for a certain amount of time (default is 10 minutes). If you activate mail alerts you will receive emails when fail2ban locks out certain IP addresses.
 NextCloudPi uses fail2ban to secure Nextcloud logins as well as SSH logins.
 
 
@@ -26,7 +37,7 @@ Run the TUI (`ncp-config`) or use the WebUI.
 ## DDNS_freeDNS
 [FreeDNS](https://freedns.afraid.org/) client.
 
-Most home users do not have a static IP but rather a dynamic IP that changes from time to time. in order for you to be able to access your Nextcloud instance, from outside of your house, without typing an IP address you need a DDNS service which tracks IP changes and updates the DNS records. 
+Most home users do not have a static IP but rather a dynamic IP that changes from time to time. in order for you to be able to access your Nextcloud instance, from outside of your house, without typing an IP address you need a DDNS service which tracks IP changes and updates the DNS records.
 
 You need to register an account on [FreeDNS](https://freedns.afraid.org/) and setup a (sub)Domain Name.
 
@@ -126,7 +137,7 @@ Change the `data` folder location of Nextcloud.
 ## nc-format-USB
 Do this if you want to format your USB Drive and make it compatible with linux user/permissions system
 
-> Make sure that **ONLY** the USB drive that you want to format is plugged in. 
+> Make sure that **ONLY** the USB drive that you want to format is plugged in.
 
 > Be careful, this will destroy **ALL** data in the USB drive
 
@@ -208,10 +219,10 @@ To get the rsync connection between the ncp and a backup-server working you need
 1. The backup-server needs to have a user. This user needs diskspace, the permission for ssh-autologin and the right to use rsync.
 2. On your ncp, root needs to be allowed to ssh-autologin to the user of the backup-server.
 
-Step 1: 
+Step 1:
 Please check what you need to do on your server side. In case you use a Synology NAS (DiskStation, RackStation), you need to enable ssh ("Control Panel", "Terminal & SNMP"), give the user - which you use to backup the data - administration access ("Control Panel", "User"), and enable Rsync ("Control Panel", "File Sharing", "File Services").
 
-Step 2: 
+Step 2:
 * Login to your ncp on the terminal
 * change to the root account (sudo -s)
 * go to the home directory of the root (cd ~)
@@ -283,7 +294,7 @@ Run the TUI (`ncp-config`) or use the WebUI.
 ## samba
 Configure SMB/CIFS file server (for Mac/Linux/Windows)
 
->If we intend to modify the data folder through SAMBA, then we have to synchronize NextCloud to make it aware of the changes. 
+>If we intend to modify the data folder through SAMBA, then we have to synchronize NextCloud to make it aware of the changes.
 >This can be done manually or automatically using [`nc-scan`][nc-scan]  and [`nc-scan-auto`][nc-scan-auto] from `nextcloudpi-config`
 
 ### How to configure
@@ -303,7 +314,7 @@ Enable Automatic installation of security updates to keep your cloud safe.
 3. Change `AUTOREBOOT` to `yes` if you want your Raspberry Pi to reboot automatically in order to apply updates (optional).
 4. Click Run or Start.
 
-### SSH Activate/deactivate 
+### SSH Activate/deactivate
 
 In order to enable SSH, the password for user pi can not remain set to the default raspberry.
 You HAVE to create a NEW password for pi if you want this program to enable SSH, it will fail if you dont!

@@ -1,3 +1,13 @@
+---
+title: Add a new language to ncp-web
+keywords: configuration language help ncp-web
+tags: [configuration, language, help, ncp-web]
+#summary: ""
+sidebar: en_sidebar
+permalink: en_Add-a-new-language-to-ncp-web.html
+folder: en
+---
+
 In order to create a new language for _ncp-web_, follow these steps
 
 - start your [development environment](https://github.com/nextcloud/nextcloudpi/wiki/Development-environment)
@@ -9,7 +19,7 @@ _Since the file has not been updated for a long time, we started making new temp
 
 - learn your language code [here](https://www.metamodpro.com/browser-language-codes)
 
-- those files should be copied to `etc/ncp-config.d/l10n/<app>/<languagecode>.json`, except for `__core__.json`, which goes to `ncp-web/l10n/<languagecode>.json`. You can find the languagecode for your currently used language [here](http://mybrowserinfo.com/detail.asp), under 'User Language'. 
+- those files should be copied to `etc/ncp-config.d/l10n/<app>/<languagecode>.json`, except for `__core__.json`, which goes to `ncp-web/l10n/<languagecode>.json`. You can find the languagecode for your currently used language [here](http://mybrowserinfo.com/detail.asp), under 'User Language'.
 
 - edit those files to add the translation to your language. You can check the results in your browser at `https://localhost:4443`. Refresh to see any changes
 
@@ -37,11 +47,11 @@ to German
 ```
 {
     "translations": {
-        "BACKUPLIMIT": "Maximale Anzahl", 
-        "Backup this NC instance to a file": "Erstelle eine Backupdatei von dieser NC-Instanz", 
-        "COMPRESS": "Kompression", 
-        "DESTDIR": "Zielverzeichnis", 
-        "INCLUDEDATA": "Inkl. Dateien", 
-        "nc-backup": "Backup erstellen" 
-    } 
+        "BACKUPLIMIT": "Maximale Anzahl",
+        "Backup this NC instance to a file": "Erstelle eine Backupdatei von dieser NC-Instanz",
+        "COMPRESS": "Kompression",
+        "DESTDIR": "Zielverzeichnis",
+        "INCLUDEDATA": "Inkl. Dateien",
+        "nc-backup": "Backup erstellen"
+    }
 }

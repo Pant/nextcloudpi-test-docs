@@ -1,5 +1,15 @@
+---
+title: How to configure NextCloudPi
+keywords: configuration help
+tags: [configuration, help]
+#summary: ""
+sidebar: en_sidebar
+permalink: en_How-to-configure-NextCloudPi.html
+folder: en
+---
+
 ## Choose an User Interface
-You can configure the NextCloudPi instance from the terminal user interface (TUI) or from the web user interface (WebUI). 
+You can configure the NextCloudPi instance from the terminal user interface (TUI) or from the web user interface (WebUI).
 Note: *The backend is the same.* All options can be accessible in either UI.
 
 ### TUI
@@ -14,7 +24,7 @@ Alternatively, you can plug in a keyboard and HDMI screen to access the terminal
 1. Connect keyboard and HDMI screen.
 2. Turn on Raspberry Pi with NextCloudPi SD card image.
 3. Login with user `pi` and password `raspberry`.
-4. (optional) type `sudo raspi-config` and enable SSH in `Interfacing Options".
+4. (optional) type `sudo raspi-config` and enable SSH in "Interfacing Options".
 5. (optional) type `sudo ncp-config` and use [`nc-wifi`][nc-wifi] to connect to your WLAN.
 
 #### Linux / Mac

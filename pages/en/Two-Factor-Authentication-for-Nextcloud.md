@@ -1,3 +1,14 @@
+---
+title: Two Factor Authentication for Nextcloud
+keywords: configuration two_factor authentication apps
+tags: [configuration, two_factor, authentication, apps]
+#summary: ""
+sidebar: en_sidebar
+permalink: en_Two-Factor-Authentication-for-Nextcloud.html
+folder: en
+---
+
+
 In Nextcloud, there is the option to set up Two Factor Authentication. The steps you have to follow in order to use it are the following:
 
 1. Install `TOTP` app on Nextcloud.
@@ -17,11 +28,6 @@ To add an App Password do the following.
 
 1. Navigate to Personal settings, under `Settings` section (here you will see every application that has access to your Nextcloud Account). Scroll until you find `App passwords`.
 2. Fill in the box that says `App name` with the application's name that you want to use (use a name that is convenient and it is distinguished from other apps).
-3. An Application Password is now generated and displayed in a gray box. Type this password (and the your username) on the application you want to use. After you log in hit `Done`. 
+3. An Application Password is now generated and displayed in a gray box. Type this password (and the your username) on the application you want to use. After you log in hit `Done`.
 
 *Note: After you type `Done`, the password will never be revealed again. You may want to use a password manager to save this password, or create a new App Password every time you loose a password*
-
-
-
-
-
