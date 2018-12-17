@@ -66,5 +66,5 @@ entries:
       output: web, pdf
 
     - title: Russian
-      url: /ru_index.html
+      url: /ru_Home.html
       output: web, pdf
