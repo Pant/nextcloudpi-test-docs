@@ -5,7 +5,7 @@ last_updated: July 3, 2016
 tags: [getting_started]
 summary: "Testing pages in Russian"
 sidebar: ru_sidebar
-permalink: ru_index.html
+permalink: ru_Home.html
 folder: ru
 ---
 
