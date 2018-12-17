@@ -1,7 +1,7 @@
 ---
 title: How to configure Let's Encrypt with closed ports 80 and 443
-keywords: configuration letsencrypt closed_ports http https network guide
-tags: [configuration, letsencrypt, closed_ports, http, https, network, guide]
+keywords: configuration security letsencrypt network guide
+tags: [configuration, security, letsencrypt, network, guide]
 #summary: ""
 sidebar: en_sidebar
 permalink: en_How-to-configure-Lets-Encrypt-with-closed-ports-80-and-443.html

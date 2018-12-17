@@ -1,7 +1,7 @@
 ---
 title: Add a new language to ncp-web
-keywords: configuration language help ncp-web
-tags: [configuration, language, help, ncp-web]
+keywords: configuration language   ncp-web contribute guide
+tags: [configuration, language, ncp-web, contribute, guide]
 #summary: ""
 sidebar: en_sidebar
 permalink: en_Add-a-new-language-to-ncp-web.html

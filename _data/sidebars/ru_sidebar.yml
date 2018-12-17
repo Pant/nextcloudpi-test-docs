@@ -37,7 +37,7 @@ entries:
     folderitems:
 
     - title: English
-      url: /en_Home.html
+      url: /en_Home-and-Overview.html
       output: web, pdf
 
     - title: Russian

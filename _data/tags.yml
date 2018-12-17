@@ -23,3 +23,41 @@ allowed-tags:
   - nc-backup
   - nc-backup-auto
   - guide
+  - guide
+  - guide
+  - language
+  - ncp-web
+  - contribute
+  - configuration
+  - berryboot
+  - ncp-config
+  - maintain
+  - development
+  - email
+  - help
+  - access
+  - network
+  - DNS
+  - backup
+  - restore
+  - letsencrypt
+  - security
+  - network
+  - ncp-config
+  - ncp-web
+  - ssh
+  - btrfs
+  - snapshots
+  - lynis
+  - ncp-apps
+  - sync
+  - tasks
+  - calendar
+  - Android
+  - testing
+  - boards
+  - two_factor_authentication
+  - nc-apps
+  - ncp-update
+  - ncp-update
+  - branches
