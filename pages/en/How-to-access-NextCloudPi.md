@@ -1,7 +1,7 @@
 ---
 title: How to access and activate NextCloudPi
 keywords: getting_started access DNS network guide
-tags: [getting_started, access, network, guide]
+tags: [getting_started, access, DNS, network, guide]
 #summary: ""
 sidebar: en_sidebar
 permalink: en_How-to-access-and-activate-NextCloudPi.html

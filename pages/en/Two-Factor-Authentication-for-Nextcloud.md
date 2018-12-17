@@ -1,7 +1,7 @@
 ---
 title: Two Factor Authentication for Nextcloud
-keywords: configuration two_factor authentication apps
-tags: [configuration, two_factor, authentication, apps]
+keywords: configuration two_factor_authentication nc-apps
+tags: [configuration, two_factor_authentication, nc-apps]
 #summary: ""
 sidebar: en_sidebar
 permalink: en_Two-Factor-Authentication-for-Nextcloud.html

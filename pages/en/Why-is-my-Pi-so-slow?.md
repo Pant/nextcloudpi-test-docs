@@ -1,6 +1,6 @@
 ---
 title: Why is my Pi so slow?
-keywords: getting_started slow boards
+keywords: getting_started boards
 tags: [getting_started, boards]
 #summary: ""
 sidebar: en_sidebar

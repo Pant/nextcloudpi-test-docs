@@ -4,7 +4,7 @@ keywords: getting_started home
 tags: [getting_started]
 #summary: ""
 sidebar: en_sidebar
-permalink: en_Home.html
+permalink: en_Home-and-Overview.html
 folder: en
 ---
 Welcome to the NextCloudPi wiki! This is a collection of information about how to install NextCloudPi and all of the configuration options. Please contribute - this is how open source communities thrive!
