@@ -28,7 +28,7 @@ entries:
       type: homepage
 
     - title: How to access NextCloudPi
-      url: /en_How-to-access-NextCloudPi.html
+      url: /en_How-to-access-and-activate-NextCloudPi.html
       output: web, pdf
 
     - title: How to access from outside of your network
@@ -91,6 +91,49 @@ entries:
       url: /en_How-to-snapshot-with-btrfs.html
       output: web, pdf
 
+  - title: Maintain
+    output: web, pdf
+    folderitems:
+
+    - title: How to enable SSH using ncp-config (or ncp-web)
+      url: /en_How-to-enable-SSH-using-ncp-config-or-ncp-web.html
+      output: web, pdf
+
+    - title: Email settings
+      url: /en_Email-settings.html
+      output: web, pdf
+
+    - title: How to backup and restore a NextCloudPi instance using ncp-config
+      url: /en_How-to-backup-and-restore-a-NextCloudPi-instance-using-ncp-config.html
+      output: web, pdf
+
+    - title: How to periodically backup to a second USB drive with NextCloudPi
+      url: /en_How-to-periodically-backup-to-a-second-USB-drive-with-NextCloudPi.html
+      output: web, pdf
+
+    - title: Contribute
+      url: /en_Contribute.html
+      output: web, pdf
+
+    - title: Development-environment
+      url: /en_Development-environment.html
+      output: web, pdf
+
+    - title: Testing NextCloudPi
+      url: /en_Testing-NextCloudPi.html
+      output: web, pdf
+
+    - title: Workflow and testing of new features
+      url: /en_Workflow-and-testing-of-new-features.html
+      output: web, pdf
+
+    - title: How to update Lynis
+      url: /en_How-to-update-Lynis.html
+      output: web, pdf
+
+    - title: NextCloudPi app developer guide (OUTDATED)
+      url: /en_ncp-app-developer-guide.html
+      output: web, pdf
 
   - title: Wiki Languages
     output: web, pdf

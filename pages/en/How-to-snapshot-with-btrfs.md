@@ -1,7 +1,7 @@
 ---
 title: How to snapshot with BTRFS
-keywords: configuration snapshots btrfs backup
-tags: [configuration, snapshots, btrfs, backup]
+keywords: configuration snapshots btrfs backup guide
+tags: [configuration, snapshots, btrfs, backup, guide]
 #summary: ""
 sidebar: en_sidebar
 permalink: en_How-to-snapshot-with-btrfs.html

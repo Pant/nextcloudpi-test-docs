@@ -1,7 +1,7 @@
 ---
 title: How to access from outside of your network
-keywords: getting_started how_to_access
-tags: [getting_started, how_to_access]
+keywords: getting_started access network guide
+tags: [getting_started, access, network, guide]
 #summary: ""
 sidebar: en_sidebar
 permalink: en_How-to-access-from-outside-of-your-network.html

@@ -1,6 +1,16 @@
+---
+title: Testing NextCloudPi
+keywords: maintain testing boards
+tags: [maintain, testing, boards]
+#summary: ""
+sidebar: en_sidebar
+permalink: en_Testing-NextCloudPi.html
+folder: en
+---
+
 This document describes the workflow to building and testing NCP.
 
-**Help is welcome and  needed! The more testers there are the less each single one of them has to work. Please, write us in the [forums](https://help.nextcloud.com/c/support/appliances-docker-snappy-vm) or [Telegram](https://t.me/NextCloudPi) if you are interested.**
+> Help is welcome and  needed! The more testers there are the less each single one of them has to work. Please, write us in the [forums](https://help.nextcloud.com/c/support/appliances-docker-snappy-vm) or [Telegram](https://t.me/NextCloudPi) if you are interested.**
 
 ## Procedure
 
@@ -14,13 +24,13 @@ Ideally we would have at least two volunteers per board, so nobody is pressured 
 
 Initially just checking that the board boots, activation and wizard works, and nextcloud logs in should be enough. We will gradually replace this manual method for some automated testing scripts.
 
-- rpi version @nachoparker @kanuahs 
+- rpi version @nachoparker @kanuahs
 - rpi berryboot version @ovpso alias @Oliver_Van
 - odroid version - @bit67 @nachoparker @kunibert
 - rock64 version @nachoparker  
-- bananapi version @theCalcaholic 
+- bananapi version @theCalcaholic
 - orangepi version (new)
-- docker version armhf @ushills 
+- docker version armhf @ushills
 - docker version x86 @ushills @not_real_name
 - curl installer (debian) @ovpso alias @Oliver_Van
 

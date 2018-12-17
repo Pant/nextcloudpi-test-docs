@@ -1,4 +1,12 @@
-
+---
+title: NextCloudPi app developer guide (OUTDATED)
+keywords: maintain ncp-apps development guide
+tags: [maintain, ncp-apps, development, guide]
+#summary: ""
+sidebar: en_sidebar
+permalink: en_ncp-app-developer-guide.html
+folder: en
+---
 
 
 
@@ -29,7 +37,7 @@ An ncp configuration option, such as [`nc-datadir`][nc-datadir], is defined by a
 In order to be launched from the web interface, it needs a permission mask 660 and ownership root:www-data
 
 ```
-chown -R root:www-data /usr/local/etc/ncp-config.d 
+chown -R root:www-data /usr/local/etc/ncp-config.d
 chmod 660 /usr/local/etc/ncp-config.d/*
 ```
 
@@ -37,7 +45,7 @@ chmod 660 /usr/local/etc/ncp-config.d/*
 It needs to define two functions called `install()` and `configure()`, and optionally another one called `cleanup()`.
 
  - The _install()_ function is called during the build process and also during [`ncp-update`][ncp-update] if it hasn't been installed before.
- - The _configure()_ function is called when 
+ - The _configure()_ function is called when
     - launched from [`ncp-web`][ncp-web],or `ncp-config`
     - during installation ( during build, or from [`ncp-update`][ncp-update] ) if it has a field `ACTIVE_=yes`
  - The _cleanup()_ function is only called at the end of the image building process, to leave the system as clean as possible after installation. Optional.

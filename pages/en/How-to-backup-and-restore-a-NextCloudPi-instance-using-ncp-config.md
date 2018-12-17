@@ -1,3 +1,13 @@
+---
+title: How to backup and restore a NextCloudPi instance using ncp-config
+keywords: maintain backup restore ncp-config
+tags: [maintain, backup, restore, ncp-config ]
+#summary: ""
+sidebar: en_sidebar
+permalink: en_How-to-backup-and-restore-a-NextCloudPi-instance-using-ncp-config.html
+folder: en
+---
+
 You may want to move your NCP instance to a larger drive or restore it after a hardware failure.
 
 _Note:_ check out [this article](https://ownyourbits.com/2018/10/19/nextcloudpi-backup-strategies/) on deciding your backup strategy.
@@ -20,18 +30,18 @@ The output will confirm if operation was successful and where the backup file is
 
 You may run backups automatically using nc-backup-auto
 ![](https://user-images.githubusercontent.com/8775469/34511804-692730ac-f05e-11e7-9ab0-f0ad3500d4df.png)
-To enable/disable, type yes/no in the 'active' field, and adjust other settings to your needs 
+To enable/disable, type yes/no in the 'active' field, and adjust other settings to your needs
 
 We now have backups of our NC installation directory and database, no actual data included yet. Unless you choose to do so and typed 'yes' in the IncludeData field above (Make sure you have enough space before doing this). Next is a backup of the configuration files.
-![](https://user-images.githubusercontent.com/8775469/34511805-6b475358-f05e-11e7-84a8-bb9b48995efd.png) 
+![](https://user-images.githubusercontent.com/8775469/34511805-6b475358-f05e-11e7-84a8-bb9b48995efd.png)
 Select destination for backup of configuration:
 ![](https://user-images.githubusercontent.com/8775469/34511811-72e6c85a-f05e-11e7-803f-bf306a539cf6.png)
 ![](https://user-images.githubusercontent.com/8775469/34511813-74e6f3aa-f05e-11e7-9b41-40f9535606a9.png)
 
-We now have backups of our NC installation directory, database and the configuration files. 
+We now have backups of our NC installation directory, database and the configuration files.
 Still no actual data included yet (unless you included it in the step before). Next is a backup or rather BTRFS snapshot of our ncdata-directory.
 Note: This will only work if you used BTRFS instead of ext4 when formating your NC data partition.
-![](https://user-images.githubusercontent.com/8775469/34511814-776e2dfa-f05e-11e7-8b42-fc4ed7a777df.png) 
+![](https://user-images.githubusercontent.com/8775469/34511814-776e2dfa-f05e-11e7-8b42-fc4ed7a777df.png)
 ![](https://user-images.githubusercontent.com/8775469/34511817-7a0bae8e-f05e-11e7-86fa-9866889b36c4.png)
 ![](https://user-images.githubusercontent.com/8775469/34511818-7c1d397c-f05e-11e7-86bc-88d5e3f4fc3c.png)
 It will confirm the name and location of the snapshot taken upon completion.

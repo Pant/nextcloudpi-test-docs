@@ -1,6 +1,16 @@
+---
+title: How to update Lynis
+keywords: maintain security lynis network guide
+tags: [maintain, security, lynis, network , guide]
+#summary: ""
+sidebar: en_sidebar
+permalink: en_How-to-update-Lynis.html
+folder: en
+---
+
 **After running nc-audit your might see the following and wonder how to update Lynis:**
 
-`! Version of Lynis is very old and should be updated [LYNIS] 
+`! Version of Lynis is very old and should be updated [LYNIS]
       https://cisofy.com/controls/LYNIS/`
 
 Well this is how you can update Lynis _(these instructions were slightly modified from [CISOfy](https://packages.cisofy.com/community/#debian-ubuntu))_
@@ -96,4 +106,3 @@ After you hit enter, you should see it list the latest version:<br>
 '2.6.8'
 
 ### 6. You're done!
-

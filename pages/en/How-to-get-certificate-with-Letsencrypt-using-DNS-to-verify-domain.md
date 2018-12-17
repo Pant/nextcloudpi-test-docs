@@ -1,7 +1,7 @@
 ---
 title: How to get certificate with Letsencrypt using DNS to verify domain
-keywords: configuration security certificate letsencrypt DNS domain
-tags: [configuration, security, certificate, letsencrypt, DNS, domain]
+keywords: configuration security certificate letsencrypt DNS domain network guide
+tags: [configuration, security, certificate, letsencrypt, DNS, domain, network, guide]
 #summary: ""
 sidebar: en_sidebar
 permalink: en_How-to-get-certificate-with-Letsencrypt-using-DNS-to-verify-domain.html

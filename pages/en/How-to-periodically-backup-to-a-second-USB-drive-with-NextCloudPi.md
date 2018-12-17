@@ -1,17 +1,26 @@
+---
+title: How to periodically backup to a second USB drive with NextCloudPi
+keywords: maintain backup external_drive USB storage nc-format-USB nc-backup nc-backup-auto guide
+tags: [maintain, backup, external_drive, USB, storage, nc-format-USB, nc-backup, nc-backup-auto, guide ]
+summary: "This guide will help you set up automatic backup to a second USB drive."
+sidebar: en_sidebar
+permalink: en_How-to-periodically-backup-to-a-second-USB-drive-with-NextCloudPi.html
+folder: en
+---
+
 [nc-format-USB]: https://github.com/nextcloud/nextcloudpi/wiki/Configuration-Reference#nc-format-usb
 [nc-backup-auto]: https://github.com/nextcloud/nextcloudpi/wiki/Configuration-Reference#nc-backup-auto
 
 
-This guide will help you set up automatic backup to a second USB drive.
 
-_Important: make sure you use the drive label in nc-datadir and other configuration options. Use names such as `/media/myCloudDrive`, instead of `/media/USBdrive`, or otherwise the system will not be able to guess which drive holds the data and which one holds the backups._
+> Important: make sure you use the drive label in nc-datadir and other configuration options. Use names such as `/media/myCloudDrive`, instead of `/media/USBdrive`, or otherwise the system will not be able to guess which drive holds the data and which one holds the backups.
 
 ## Procedure
-1. Complete at least steps 2 and 3 of the [[Guide to configure an external USB drive with NextCloudPi|How-to-configure-an-external-USB-drive-with-NextCloudPi]].
+1. Complete at least steps 2 and 3 of the [Guide to configure an external USB drive with NextCloudPi](How-to-configure-an-external-USB-drive-with-NextCloudPi).
 2. Format second USB drive with [`nc-format-USB`][nc-format-USB] (optional but see Note).
 3. Configure and activate [`nc-backup-auto`][nc-backup-auto] to the second USB drive".
 
-## Complete required steps from the [[Guide to configure an external USB drive with NextCloudPi|How-to-configure-an-external-USB-drive-with-NextCloudPi]]
+## Complete required steps from the [Guide to configure an external USB drive with NextCloudPi](How-to-configure-an-external-USB-drive-with-NextCloudPi)
 
 You first need to configure this guide. [`nc-backup-auto`][nc-backup-auto] is going to retrieve Nextcloud directory and database and backup them.
 
@@ -19,7 +28,7 @@ You first need to configure this guide. [`nc-backup-auto`][nc-backup-auto] is go
 
 **IMPORTANT:** To format the second USB drive with [`nc-format-USB`][nc-format-USB] you first need to remove the first USB drive!
 
-> **Note: _The disk must not be formated as NTFS/FAT as these do not support the user/permission system.
+> **Note:** _The disk must not be formated as NTFS/FAT as these do not support the user/permission system._
 
 1. Remove the first USB drive.
 2. Navigate to [`nc-format-USB`][nc-format-USB] in the TUI or the WebUI.

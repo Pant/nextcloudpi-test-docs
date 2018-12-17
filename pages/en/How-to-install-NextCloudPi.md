@@ -1,7 +1,7 @@
 ---
 title: How to install NextCloudPi
-keywords: getting_started how_to_install
-tags: [getting_started]
+keywords: getting_started installation network guide
+tags: [getting_started, installation, network, guide]
 #summary: ""
 sidebar: en_sidebar
 permalink: en_How-to-install-NextCloudPi.html

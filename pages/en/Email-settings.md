@@ -1,3 +1,13 @@
+---
+title: Email settings
+keywords: maintain configuration email
+tags: [maintain, configuration, email]
+#summary: ""
+sidebar: en_sidebar
+permalink: en_Email-settings.html
+folder: en
+---
+
 If you want to receive emails for password recovery and notifications, you have to set up the email settings in Nextcloud.
 
 Email settings for Nextcloud are located in Admin -> Additional Settings -> Email server. There are 2 recommended ways to set the email address that mails come from:
@@ -7,7 +17,7 @@ Email settings for Nextcloud are located in Admin -> Additional Settings -> Emai
 
 PHP is the most simple and easier to configure.
 
-The differences between them are that in PHP mode, sent emails pass through the ncp mail server named `postfix`, as opposed in SMTP mode where the email get passed through your email provider(Gmail, Yahoo, etc). With SMTP emails are saved in `Sent` folder of your account. 
+The differences between them are that in PHP mode, sent emails pass through the ncp mail server named `postfix`, as opposed in SMTP mode where the email get passed through your email provider(Gmail, Yahoo, etc). With SMTP emails are saved in `Sent` folder of your account.
 
 For SMTP it is required that you have a registered account with your provider, and to know the details such as port, authentication method and credentials.
 
@@ -35,13 +45,13 @@ You can now click `Send email` to test your settings. the administrator user wil
 There is a third way to set up your email, if the first two did not get the job done.
 
 For this to work you need to install and configure **ssmtp** and **bsd-mailx**, which also installs the required libraries. It will also remove Postfix if it is installed.
- 
+
 `sudo apt-get install ssmtp bsd-mailx`
- 
+
 File created manually:
 /root/.forward  
- 
-#used nano to add; 
+
+#used nano to add;
 
 **pi@localhost**
 
@@ -53,7 +63,7 @@ Files edited:
 
 `sudo nano /etc/ssmtp/revaliases`
 
-#used nano to add: 
+#used nano to add:
 
 **root:my@mxroute.com:smtp.mxroute.com:587**
 

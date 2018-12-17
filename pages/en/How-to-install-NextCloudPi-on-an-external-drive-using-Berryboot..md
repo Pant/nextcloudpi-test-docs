@@ -1,7 +1,7 @@
 ---
 title: How to install NextCloudPi on an external drive using Berryboot
-keywords: getting_started berryboot help external_drive
-tags: [getting_started, berryboot, help, external_drive]
+keywords: getting_started berryboot help external_drive guide
+tags: [getting_started, berryboot, help, external_drive, guide ]
 #summary: ""
 sidebar: en_sidebar
 permalink: en_How-to-install-NextCloudPi-on-an-external-drive-using-Berryboot.html

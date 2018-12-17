@@ -1,4 +1,14 @@
-Updates run by `ncp-update` take the latest version from the `master` branch of the repo. 
+---
+title: Workflow and testing of new features
+keywords: maintain testing development ncp-update branches
+tags: [maintain, testing, development, ncp-update, branches]
+#summary: ""
+sidebar: en_sidebar
+permalink: en_Workflow-and-testing-of-new-features.html
+folder: en
+---
+
+Updates run by `ncp-update` take the latest version from the `master` branch of the repo.
 
 These features need to be well tested in order to be merged to that branch. The typical workflow is
 

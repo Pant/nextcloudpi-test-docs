@@ -1,7 +1,7 @@
 ---
 title: How to configure NextCloudPi
-keywords: configuration help
-tags: [configuration, help]
+keywords: configuration network security ncp-config ncp-web guide
+tags: [configuration, network, security, ncp-config, ncp-web, guide]
 #summary: ""
 sidebar: en_sidebar
 permalink: en_How-to-configure-NextCloudPi.html
@@ -14,7 +14,7 @@ Note: *The backend is the same.* All options can be accessible in either UI.
 
 ### TUI
 
-To access the terminal, you need to have ssh enabled on your Raspberry Pi. For more info look [here](https://github.com/nextcloud/nextcloudpi/wiki/How-to-install-NextCloudPi-on-a-Raspberry-Pi#first-steps).
+To access the terminal, you need to have ssh enabled on your Raspberry Pi. For more info about how to enable SSH to your Raspberry Pi, look [here](https://github.com/nextcloud/nextcloudpi/wiki/How-to-install-NextCloudPi-on-a-Raspberry-Pi#first-steps).
 
 Alternatively, you can plug in a keyboard and HDMI screen to access the terminal.
 

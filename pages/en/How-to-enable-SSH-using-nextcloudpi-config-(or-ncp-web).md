@@ -1,6 +1,16 @@
+---
+title: How to enable SSH using ncp-config (or ncp-web)
+keywords: maintain ssh using ncp-config ncp-web network guide
+tags: [maintain, ssh, using, ncp-config, ncp-web, network, guide]
+#summary: ""
+sidebar: en_sidebar
+permalink: en_How-to-enable-SSH-using-ncp-config-or-ncp-web.html
+folder: en
+---
+
 In terminal type:
 
-`sudo ncp-config` (used to be nextcloudpi-config) 
+`sudo ncp-config` (used to be nextcloudpi-config)
 
 or visit https://nextcloudpi.local:4443
 and login with
@@ -15,8 +25,8 @@ Use arrow keys for up and down. Use tab key to move to select or cancel, enter t
 
 Type yes to enable ssh and set the new password for pi.
 In order to enable SSH, the password for user pi can not remain set to the default raspberry.
-You HAVE to create a NEW password for pi if you want this program to enable SSH, it 
-will fail if you dont! 
+You HAVE to create a NEW password for pi if you want this program to enable SSH, it
+will fail if you dont!
 Note: Use normal AlphaNumeric, the only special characters allowed are .,@-_/
 
 ![Enable SSH yes screenshot](https://user-images.githubusercontent.com/8775469/34931808-cb1eaf30-f9d0-11e7-9494-0d51bfdc3a16.png)

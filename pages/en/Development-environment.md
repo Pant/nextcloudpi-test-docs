@@ -1,3 +1,13 @@
+---
+title: Development-environment
+keywords: maintain development, guide
+tags: [maintain, development, guide ]
+#summary: ""
+sidebar: en_sidebar
+permalink: en_Development-environment.html
+folder: en
+---
+
 ## Using docker
 
 In order to facilitate development, the x86 NextCloudPi docker container can be used.
@@ -10,7 +20,7 @@ cd nextcloudpi
 docker-compose -f docker-compose-ncpdev.yml up
 ```
 
-We can now access the interface at `https://localhost:4443`. 
+We can now access the interface at `https://localhost:4443`.
 
 We can start working in the folder `ncp-web` from the repo and refresh the browser to see the changes live.
 
