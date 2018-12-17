@@ -4,6 +4,8 @@ keywords: maintain testing development ncp-update branches
 tags: [maintain, testing, development, ncp-update, branches]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: 'Maintain'
+language: 'en'
 permalink: en_Workflow-and-testing-of-new-features.html
 folder: en
 ---

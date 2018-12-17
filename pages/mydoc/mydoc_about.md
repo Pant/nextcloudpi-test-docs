@@ -7,8 +7,8 @@ summary: "I have used this theme for projects that I've worked on as a professio
 sidebar: mydoc_sidebar
 permalink: mydoc_about.html
 folder: mydoc
-sidebar_folder: "Getting Started"
-language: "en"
+#sidebar_folder: "Getting Started"
+#language: "en"
 ---
 
 

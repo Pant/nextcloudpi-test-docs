@@ -10,8 +10,8 @@ weight: 10
 sidebar: mydoc_sidebar
 permalink: mydoc_build_scripts.html
 folder: mydoc
-language: 'en'
-sidebar_folder: 'Getting Started'
+#language: 'en'
+#sidebar_folder: 'Getting Started'
 ---
 
 {% include custom/getting_started_series.html %}

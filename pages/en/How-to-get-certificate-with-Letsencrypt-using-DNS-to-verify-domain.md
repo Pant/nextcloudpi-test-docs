@@ -4,6 +4,8 @@ keywords: configuration security certificate letsencrypt DNS domain network guid
 tags: [configuration, security, certificate, letsencrypt, DNS, domain, network, guide]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder:
+language: 'en'
 permalink: en_How-to-get-certificate-with-Letsencrypt-using-DNS-to-verify-domain.html
 folder: en
 ---

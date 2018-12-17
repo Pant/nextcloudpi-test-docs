@@ -4,6 +4,8 @@ keywords: maintain backup restore ncp-config
 tags: [maintain, backup, restore, ncp-config ]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: 'Maintain'
+language: 'en'
 permalink: en_How-to-backup-and-restore-a-NextCloudPi-instance-using-ncp-config.html
 folder: en
 ---

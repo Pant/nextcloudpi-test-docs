@@ -4,6 +4,8 @@ keywords: configuration network security ncp-config ncp-web guide
 tags: [configuration, network, security, ncp-config, ncp-web, guide]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: 'Configuration'
+language: 'en'
 permalink: en_How-to-configure-NextCloudPi.html
 folder: en
 ---

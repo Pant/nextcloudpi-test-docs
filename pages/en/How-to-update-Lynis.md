@@ -4,6 +4,8 @@ keywords: maintain security lynis network guide
 tags: [maintain, security, lynis, network , guide]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: 'Maintain'
+language: 'en'
 permalink: en_How-to-update-Lynis.html
 folder: en
 ---

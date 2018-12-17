@@ -4,6 +4,8 @@ keywords: maintain backup external_drive USB storage nc-format-USB nc-backup nc-
 tags: [maintain, backup, external_drive, USB, storage, nc-format-USB, nc-backup, nc-backup-auto, guide ]
 summary: "This guide will help you set up automatic backup to a second USB drive."
 sidebar: en_sidebar
+sidebar_folder: 'Maintain'
+language: 'en'
 permalink: en_How-to-periodically-backup-to-a-second-USB-drive-with-NextCloudPi.html
 folder: en
 ---

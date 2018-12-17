@@ -4,6 +4,8 @@ keywords: maintain development, guide
 tags: [maintain, development, guide ]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: 'Maintain'
+language: 'en'
 permalink: en_Development-environment.html
 folder: en
 ---

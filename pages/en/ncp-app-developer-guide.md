@@ -4,6 +4,8 @@ keywords: maintain ncp-apps development guide
 tags: [maintain, ncp-apps, development, guide]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: 'Maintain'
+language: 'en'
 permalink: en_ncp-app-developer-guide.html
 folder: en
 ---

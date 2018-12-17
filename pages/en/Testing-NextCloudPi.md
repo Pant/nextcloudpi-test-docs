@@ -4,6 +4,8 @@ keywords: maintain testing boards
 tags: [maintain, testing, boards]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: 'Maintain'
+language: 'en'
 permalink: en_Testing-NextCloudPi.html
 folder: en
 ---

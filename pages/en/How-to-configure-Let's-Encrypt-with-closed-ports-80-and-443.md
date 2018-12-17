@@ -4,6 +4,8 @@ keywords: configuration security letsencrypt network guide
 tags: [configuration, security, letsencrypt, network, guide]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: 'Configuration'
+language: 'en'
 permalink: en_How-to-configure-Lets-Encrypt-with-closed-ports-80-and-443.html
 folder: en
 ---

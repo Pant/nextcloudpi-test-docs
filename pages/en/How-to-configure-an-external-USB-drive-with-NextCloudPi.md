@@ -4,6 +4,8 @@ keywords: configuration exteral_drive USB
 tags: [configuration, exteral_drive, USB]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: 'Configuration'
+language: 'en'
 permalink: en_How-to-configure-an-external-USB-drive-with-NextCloudPi.html
 folder: en
 ---

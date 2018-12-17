@@ -11,19 +11,29 @@
       <ul>
 
         {% for pages in site.pages %}
-        {% assign sidebar_folder =  pages.sidebar_folder %}
+        {% for sidebar_folder in pages.sidebar_folder %}
         {% if sidebar_folder == folder.title %}
-        {% assign language = pages.language %}
-        {% if language == "en" %}
-
+        {% assign language = entry.language%}
+        {% if language == pages.language %}
         {% assign clean_url = page.url | remove: "/" %}
-        {% if pages.permalink == clean_url %}
-        <li class="active"><a href="{{pages.url | remove: "/" }}">{{pages.title}}</a></li>
+        {% if pages.sidebar_folder[1] == folder_title %}
+
+          {% if pages.permalink == clean_url %}
+          <li class="active"><a href="{{pages.url | remove: "/" }}">{{pages.sidebar_title}}</a></li>
+          {% else %}
+          <li><a href="{{pages.url | remove: "/" }}">{{pages.sidebar_title}}</a></li>
+          {% endif %}
+
         {% else %}
-        <li><a href="{{pages.url | remove: "/" }}">{{pages.title}}</a></li>
+          {% if pages.permalink == clean_url %}
+          <li class="active"><a href="{{pages.url | remove: "/" }}">{{pages.title}}</a></li>
+          {% else %}
+          <li><a href="{{pages.url | remove: "/" }}">{{pages.title}}</a></li>
+          {% endif %}
         {% endif %}
         {% endif %}
         {% endif %}
+        {% endfor %}
         {% endfor %}
 
       </ul>

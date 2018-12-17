@@ -4,6 +4,8 @@ keywords: configuration help ncp-config
 tags: [configuration, help, ncp-config]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: 'Configuration'
+language: 'en'
 permalink: en_Configuration-Reference.html
 folder: en
 ---

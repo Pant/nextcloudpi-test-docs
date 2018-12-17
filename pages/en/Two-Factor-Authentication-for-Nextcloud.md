@@ -4,6 +4,8 @@ keywords: configuration two_factor_authentication nc-apps
 tags: [configuration, two_factor_authentication, nc-apps]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: 'Configuration'
+language: 'en'
 permalink: en_Two-Factor-Authentication-for-Nextcloud.html
 folder: en
 ---

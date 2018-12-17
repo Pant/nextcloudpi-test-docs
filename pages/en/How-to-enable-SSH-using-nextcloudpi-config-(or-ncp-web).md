@@ -4,6 +4,8 @@ keywords: maintain ssh using ncp-config ncp-web network guide
 tags: [maintain, ssh, using, ncp-config, ncp-web, network, guide]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: 'Maintain'
+language: 'en'
 permalink: en_How-to-enable-SSH-using-ncp-config-or-ncp-web.html
 folder: en
 ---

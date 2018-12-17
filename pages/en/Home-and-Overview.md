@@ -4,7 +4,8 @@ keywords: getting_started home
 tags: [getting_started]
 #summary: ""
 sidebar: en_sidebar
-sidebar_folder: "Getting Started"
+sidebar_folder: ["Getting Started", "Wiki Languages"]
+sidebar_title: English
 language: en
 permalink: en_Home-and-Overview.html
 folder: en

@@ -4,6 +4,8 @@ keywords: getting_started installation network guide
 tags: [getting_started, installation, network, guide]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: 'Getting Started'
+language: 'en'
 permalink: en_How-to-install-NextCloudPi.html
 folder: en
 ---

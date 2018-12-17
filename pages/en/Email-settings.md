@@ -4,6 +4,8 @@ keywords: maintain configuration email
 tags: [maintain, configuration, email]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: 'Maintain'
+language: 'en'
 permalink: en_Email-settings.html
 folder: en
 ---
