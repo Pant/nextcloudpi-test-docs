@@ -4,6 +4,8 @@ keywords: getting_started access DNS network guide
 tags: [getting_started, access, DNS, network, guide]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: "Getting Started"
+language: en
 permalink: en_How-to-access-and-activate-NextCloudPi.html
 folder: en
 ---

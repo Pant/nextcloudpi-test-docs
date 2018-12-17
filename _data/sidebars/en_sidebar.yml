@@ -36,7 +36,7 @@ entries:
       output: web, pdf
 
     - title: BerryBoot Instructions for NextCloudPi
-      url: /en_BerryBoot-Instructions-for-NextCloudPi.html
+      url: /
       output: web, pdf
 
     - title: How to install NextCloudPi on an external drive using Berryboot

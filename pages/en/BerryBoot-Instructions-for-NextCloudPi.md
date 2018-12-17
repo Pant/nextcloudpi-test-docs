@@ -4,6 +4,8 @@ keywords: getting_started berryboot help external_drive
 tags: [getting_started, berryboot, help, external_drive]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: 'Getting Started'
+language: 'en'
 permalink: en_BerryBoot-Instructions-for-NextCloudPi.html
 folder: en
 ---

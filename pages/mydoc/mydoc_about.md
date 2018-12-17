@@ -7,7 +7,48 @@ summary: "I have used this theme for projects that I've worked on as a professio
 sidebar: mydoc_sidebar
 permalink: mydoc_about.html
 folder: mydoc
+sidebar_folder: "Getting Started"
+language: "en"
 ---
+
+
+
+{% assign sidebar = site.data.sidebars[page.sidebar].entries %}
+
+{{page.url}}
+
+
+
+{% for entry in sidebar %}
+{% for folder in entry.folders %}
+{% if folder.output contains "web" %}
+{% for folder_title in folder.title %}
+
+{% for pages in site.pages %}
+
+{% assign sidebar_folder =  pages.sidebar_folder %}
+{% if sidebar_folder == folder.title %}
+
+{% assign language = pages.language %}
+{% if language == "en" %}
+
+{% assign clean_url = page.url | remove: "/" %}
+{% if pages.permalink == clean_url %}
+current page {{pages.title}}
+{% endif %}
+
+<li><a href="{{pages.url | remove: "/" }}">{{pages.title}}</a></li>
+
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+{% endif %}
+
+{% endfor %}
+{% endfor %}
+
 
 My name is Tom Johnson, and I'm a technical writer, blogger, and podcaster based in San Jose, California. For more details, see my [technical writing blog](http://idratherbewriting.com) and my [course on API documentation](http://idratherbewriting.com/learnapidoc/).  See [my blog's about page](http://idratherbewriting.com/aboutme/) for more details about me.
 

@@ -4,6 +4,8 @@ keywords: getting_started boards
 tags: [getting_started, boards]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: "Getting Started"
+language: en
 permalink: en_Why-is-my-Pi-so-slow.html
 folder: en
 ---

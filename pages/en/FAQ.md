@@ -4,6 +4,8 @@ keywords: getting_started FAQ
 tags: [getting_started, help]
 #summary: ""
 sidebar: en_sidebar
+sidebar_folder: "Getting Started"
+language: en
 permalink: en_FAQ.html
 folder: en
 ---
