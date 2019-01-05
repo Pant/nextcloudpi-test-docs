@@ -19,18 +19,17 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Overview
+  - title: Getting Started
     output: web, pdf
     folderitems:
 
-    - title: Get started
-      url: /ru_index.html
-      output: web, pdf
-      type: homepage
+  - title: Конфигурация
+    output: web, pdf
+    folderitems:
 
-    - title: About
-      url: /ru_about.html
-      output: web, pdf
+  - title: Maintain
+    output: web, pdf
+    folderitems:
 
   - title: Wiki Languages
     output: web, pdf
@@ -41,5 +40,5 @@ entries:
       output: web, pdf
 
     - title: Russian
-      url: /ru_Home.html
+      url: /ru_Home-and-Overview.html
       output: web, pdf
