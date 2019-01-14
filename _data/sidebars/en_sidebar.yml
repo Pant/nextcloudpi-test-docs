@@ -41,5 +41,5 @@ entries:
       output: web, pdf
 
     - title: Russian
-      url: /ru_Home.html
+      url: /ru_Home-and-Overview.html
       output: web, pdf

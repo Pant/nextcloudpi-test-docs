@@ -6,4 +6,4 @@ hide_sidebar: true
 
 [Click here for ENGLISH Wiki](en_Home-and-Overview.html)
 
-[Click here for RUSSIAN Wiki](ru_Home.html)
+[Click here for RUSSIAN Wiki](ru_Home-and-Overview.html)
